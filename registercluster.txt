@@ -1,0 +1,6 @@
+#Steps to register cluster with OIDC Provider
+
+eksctl utils associate-iam-oidc-provider \
+    --region ap-southeast-1 \
+    --cluster eks-acg \
+    --approve --profile eksadmin
