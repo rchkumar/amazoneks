@@ -14,3 +14,6 @@ At this stage, we have created ingress controller, assigned IAM policy to the wo
 In order to test , navigate to the test folder 
 
 And run ./run.sh script, which creates application load balancer (ingress object )and respective dep and service files
+
+
+after above step, navigate to the test folder and deploy load balancer by running the script run.sh , which is present in test folder
