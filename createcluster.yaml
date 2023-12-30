@@ -14,7 +14,7 @@ nodeGroups:
   - name: eks-node-group
     instanceType: t3.medium
     desiredCapacity: 3
-    privateNetworking: true
+    privateNetworking: false
     volumeSize: 30
 
 availabilityZones: ["ap-southeast-1a", "ap-southeast-1b", "ap-southeast-1c"] # This is required since in us-east-1 only 2 subnets are created by default (https://eksctl.io/usage/vpc-networking/
