@@ -18,3 +18,5 @@ nodeGroups:
     volumeSize: 30
 
 availabilityZones: ["ap-southeast-1a", "ap-southeast-1b", "ap-southeast-1c"] # This is required since in us-east-1 only 2 subnets are created by default (https://eksctl.io/usage/vpc-networking/
+
+# aws eks update-kubeconfig --region  ap-southeast-1 --name eks-acg --profile eksadmin
